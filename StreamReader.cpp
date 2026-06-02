@@ -19,5 +19,7 @@ int main(){
     while(true){
 
         cout << "- ";
+        //medapat setiap karakter dalam satu baris
+        getline(cin, baris);
     
      
