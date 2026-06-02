@@ -4,5 +4,8 @@
 using namespace std;
 
 int main(){
+    //deklarasi variabel baris untuk menyipan data string
+    string baris;
+
     
      
