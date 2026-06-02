@@ -35,5 +35,7 @@ int main(){
     infile.open("contohfile.txt");
 
     cout << endl << ">= Membuka & membaca file " <<endl;
-    
+    //kondisi jika file ada
+    if (infile.is_open()){
+
      
