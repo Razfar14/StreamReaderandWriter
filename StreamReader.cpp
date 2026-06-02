@@ -38,4 +38,10 @@ int main(){
     //kondisi jika file ada
     if (infile.is_open()){
 
+        //perulangan untuk ,e,umculkan setia[ baris
+        while (getline(infile, baris)){
+            //menampilkan isi file
+            cout << baris << endl;
+        }
+
      
