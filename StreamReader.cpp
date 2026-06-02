@@ -47,3 +47,8 @@ int main(){
         //menutup file setelah selesai membaca
         infile.close();
     }
+    //kondisi jika file tidak ada
+    else {
+        cout << "File tidak ditemukan!" << endl;
+        return 0;
+    }
